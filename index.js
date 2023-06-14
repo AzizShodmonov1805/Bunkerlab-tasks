@@ -128,7 +128,7 @@ let a1=5,a2=6;
 // else console.log("a1=a2");
 
 // 9
-let A=a1,B=a2;
+// let A=a1,B=a2;
 //  if(A<B) console.log(A,B);
  
 // else if(A>B) 
@@ -138,15 +138,99 @@ let A=a1,B=a2;
 //     else console.log("A=B");
 
 // 10
-if(A!=B){
-    A=A+B;
-    B=A;
-    console.log(A,B);
+// if(A!=B){
+//     A=A+B;
+//     B=A;
+//     console.log(A,B);
     
-}
-else{
-    A=0;
-    B=0;
-    console.log(A,B);
-}
+// }
+// else{
+//     A=0;
+//     B=0;
+//     console.log(A,B);
+// }
 
+// 11
+
+a1=1;a2=1;
+let A=a1,B=a2;
+
+    // if(A>B)
+    // {
+    //     A=a1;
+    //     B=a1;
+    //     console.log(A,B);
+    // }
+    // else if(A<B) {
+    //     A=a2;
+    //     B=a2;
+    //     console.log(A,B);
+    // }
+
+    // else  {
+    //     A=0;
+    //     B=0;
+    //     console.log(A,B);
+    // }
+
+    // 12
+    let b1=1,b2=2,b3=3,min;
+min=b1;
+
+//     if(min>b2 && min>b3){
+//         if(b2>b3){
+//             min=b3;
+//         }
+//         else{
+//             min=b2;
+//         }
+//     }
+//     else if (min>b2 && min<b3){
+//         min=b2;
+//     }
+//     else if (min>b3 && min<b2){
+//         min=b3;
+//     }
+//     console.log(min);
+
+
+let avg=0;
+// 13
+// if(min>b2 && min>b3){
+//     if(b2>b3){
+//        avg=b2;
+//     }
+//     else{
+//         avg=b3;
+//     }
+// }
+// else if (min>b2 && min<b3){
+//     avg=b1;
+// }
+
+// console.log(avg);
+
+let max=b2;
+// 14
+
+if(min>b2 && min>b3){
+    max=b1;
+            if(b2>b3){
+                min=b3;
+            }
+            else{
+                min=b2;
+            }
+        }
+        else if (min>b2 && min<b3){
+            min=b2;
+            max=b3;
+            
+        }
+        else if (min>b3 && min<b2){
+            min=b3;
+            max=b2
+        }
+        console.log("min",min);
+        console.log("max",max);
+    
