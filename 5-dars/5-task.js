@@ -10,13 +10,13 @@
 
 /// 11
 
-// let n=2,S=0;
-// for (let i = 0; i <=n; i++) {
+let n=90,S=0;
+for (let i = 0; i <=n; i++) {
 
-//  S+=(n+i)**2;
+ S+=(n+i)**2;
 
-// }
-// console.log(S);
+ console.log(S);
+}
 
 
 // 12===================
