@@ -77,11 +77,11 @@
 // console.log(pow(2,0));
 
 // console.log(parseFloat("12w"));
-function sign(a) {
-    if(parseFloat(a)>0)
-    return 1;
-   else if(parseFloat(a)<0)
-    return -1;
-    else return 0;
-}
-console.log(sign("12w"));
+// function sign(a) {
+//     if(parseFloat(a)>0)
+//     return 1;
+//    else if(parseFloat(a)<0)
+//     return -1;
+//     else return 0;
+// }
+// console.log(sign("12w"));
